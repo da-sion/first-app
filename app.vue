@@ -6,6 +6,7 @@
       this is an auto-importent component.
       ini baris baru
       ini baris baru lagi
+ini perubahan dari jeki
     </AppAlert>
 
   </div>

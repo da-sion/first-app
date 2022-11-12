@@ -5,6 +5,7 @@
     <AppAlert>
       this is an auto-importent component.
       ini baris baru
+ini perubahan dari jeki
     </AppAlert>
   </div>
 </template>

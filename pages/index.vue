@@ -6,27 +6,19 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <a class="navbar-brand" href="#">Hidden brand</a>
+          <NuxtLink to="/" class="navbar-brand">First App</NuxtLink>
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <NuxtLink to="/" class="nav-link active">Home</NuxtLink>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
+              <NuxtLink to="/about" class="nav-link">About</NuxtLink>
             </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
         </div>
       </div>
     </nav>
       ini adalah home
-    <NuxtLink to="/about" class="btn btn-info">about</NuxtLink>
     <div class="row">
       <div class="col-md-4">
         nama: {{nama}}
